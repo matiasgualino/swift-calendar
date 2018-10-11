@@ -23,19 +23,19 @@ enum Weekdays: Int {
         get {
             switch self {
             case .SUNDAY:
-                return "Dom"
+                return "Sun"
             case .MONDAY:
-                return "Lun"
+                return "Mon"
             case .THURSDAY:
-                return "Mar"
+                return "Thu"
             case .WEDNESDAY:
-                return "Mie"
+                return "Wed"
             case .TUESDAY:
-                return "Jue"
+                return "Tue"
             case .FRIDAY:
-                return "Vie"
+                return "Fri"
             case .SATURDAY:
-                return "Sab"
+                return "Sat"
             }
         }
     }
