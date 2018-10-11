@@ -19,10 +19,10 @@ class ViewController: UIViewController {
         
         let weekdaysStackView = WeekdaysStackView()
         let calendarView = CalendarView(month: 2, year: 2020, holidays: holidays)
-        weekdaysStackView.translatesAutoresizingMaskIntoConstraints = false
-        calendarView.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addSubview(weekdaysStackView)
-        self.view.addSubview(calendarView)
+        [weekdaysStackView, calendarView].forEach({
+            $0.translatesAutoresizingMaskIntoConstraints = false
+            self.view.addSubview($0)
+        })
         
         NSLayoutConstraint.activate([
             weekdaysStackView.heightAnchor.constraint(equalToConstant: 44),
