@@ -18,7 +18,9 @@
 		0FE58380216E939D0078553A /* SelectableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE5837F216E939D0078553A /* SelectableLabel.swift */; };
 		0FE58382216E93FF0078553A /* Weekdays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE58381216E93FF0078553A /* Weekdays.swift */; };
 		0FE58384216E9E5A0078553A /* LabelsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE58383216E9E5A0078553A /* LabelsStackView.swift */; };
-		0FE58386216EA9290078553A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE58385216EA9290078553A /* CalendarView.swift */; };
+		0FE58386216EA9290078553A /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE58385216EA9290078553A /* MonthView.swift */; };
+		0FE58388216F03350078553A /* HorizontalSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE58387216F03350078553A /* HorizontalSwipeView.swift */; };
+		0FE5838A216F0E0B0078553A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE58389216F0E0B0078553A /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +58,9 @@
 		0FE5837F216E939D0078553A /* SelectableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableLabel.swift; sourceTree = "<group>"; };
 		0FE58381216E93FF0078553A /* Weekdays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekdays.swift; sourceTree = "<group>"; };
 		0FE58383216E9E5A0078553A /* LabelsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsStackView.swift; sourceTree = "<group>"; };
-		0FE58385216EA9290078553A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		0FE58385216EA9290078553A /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		0FE58387216F03350078553A /* HorizontalSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSwipeView.swift; sourceTree = "<group>"; };
+		0FE58389216F0E0B0078553A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +147,9 @@
 				0FE5837D216E75A80078553A /* WeekStackView.swift */,
 				0FE5837F216E939D0078553A /* SelectableLabel.swift */,
 				0FE58383216E9E5A0078553A /* LabelsStackView.swift */,
-				0FE58385216EA9290078553A /* CalendarView.swift */,
+				0FE58385216EA9290078553A /* MonthView.swift */,
+				0FE58387216F03350078553A /* HorizontalSwipeView.swift */,
+				0FE58389216F0E0B0078553A /* CalendarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,9 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE5838A216F0E0B0078553A /* CalendarView.swift in Sources */,
 				0FE5834F216E59CD0078553A /* ViewController.swift in Sources */,
 				0FE5834D216E59CD0078553A /* AppDelegate.swift in Sources */,
-				0FE58386216EA9290078553A /* CalendarView.swift in Sources */,
+				0FE58386216EA9290078553A /* MonthView.swift in Sources */,
+				0FE58388216F03350078553A /* HorizontalSwipeView.swift in Sources */,
 				0FE58382216E93FF0078553A /* Weekdays.swift in Sources */,
 				0FE5837B216E5A0F0078553A /* WeekdaysStackView.swift in Sources */,
 				0FE5837E216E75A80078553A /* WeekStackView.swift in Sources */,

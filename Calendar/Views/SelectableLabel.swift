@@ -26,6 +26,9 @@ class SelectableLabel: UILabel {
     var disableTextColor: UIColor = UIColor.lightGray
     var enableTextColor: UIColor = UIColor.black
     
+    var unselectedFont: UIFont = UIFont.systemFont(ofSize: 16)
+    var selectedFont: UIFont = UIFont.systemFont(ofSize: 16)
+    
     override var isEnabled: Bool {
         didSet {
             self.textColor = self.isEnabled ? self.enableTextColor : self.disableTextColor
@@ -37,6 +40,7 @@ class SelectableLabel: UILabel {
         didSet {
             self.backgroundColor = self.isSelected ? self.selectedBackgroundColor : self.unselectedBackgroundColor
             self.textColor = self.isSelected ? self.selectedTextColor : self.unselectedTextColor
+            self.font = self.isSelected ? self.selectedFont : self.unselectedFont
             self.layer.cornerRadius = self.isSelected ? self.frame.size.height*0.5 : 0
         }
     }

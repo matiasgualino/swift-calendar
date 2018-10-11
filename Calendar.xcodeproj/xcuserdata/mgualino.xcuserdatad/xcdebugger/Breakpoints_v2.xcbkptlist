@@ -10,13 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Calendar/Views/CalendarView.swift"
-            timestampString = "560921425.496832"
+            timestampString = "560927210.059178"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
-            landmarkName = "onSelectedDay(day:)"
-            landmarkType = "7">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Calendar/Views/WeekStackView.swift"
-            timestampString = "560921425.4970371"
+            timestampString = "560927210.059292"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "onSelected(id:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,13 +40,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Calendar/Views/CalendarView.swift"
-            timestampString = "560921425.497206"
+            timestampString = "560927210.0593621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "onSelectedDay(day:)"
-            landmarkType = "7">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -58,13 +54,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Calendar/Views/CalendarView.swift"
-            timestampString = "560921425.497363"
+            timestampString = "560927210.05943"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "getDayIfInMonth(dateString:)"
-            landmarkType = "7">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,13 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Calendar/Views/CalendarView.swift"
-            timestampString = "560921425.4974999"
+            timestampString = "560927210.059503"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "getDayIfInMonth(dateString:)"
-            landmarkType = "7">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -90,13 +82,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Calendar/Views/CalendarView.swift"
-            timestampString = "560921425.497628"
+            timestampString = "560927210.0595959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "getDayIfInMonth(dateString:)"
-            landmarkType = "7">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

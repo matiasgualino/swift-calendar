@@ -57,6 +57,8 @@ class WeekStackView: LabelsStackView {
         }
         
         let to = 7 - self.startDay.rawValue + 1
+        let lightFont = UIFont.systemFont(ofSize: 14, weight: UIFont.Weight.light)
+        let boldFont = UIFont.boldSystemFont(ofSize: 16)
         
         for i in stride(from: 0, to: to, by: 1) {
             let currentDay = self.from + i
@@ -66,9 +68,11 @@ class WeekStackView: LabelsStackView {
                 dayLabel.delegate = self
                 dayLabel.text = "\(currentDay)"
                 dayLabel.textColor = self.itemTextColor
-                dayLabel.font = self.itemFont
+                dayLabel.font = lightFont
                 dayLabel.textAlignment = .center
                 dayLabel.isEnabled = !self.holidays.contains(currentDay)
+                dayLabel.selectedFont = boldFont
+                dayLabel.unselectedFont = lightFont
                 dayLabel.selectedTextColor = self.selectedTextColor
                 dayLabel.unselectedTextColor = self.unselectedTextColor
                 dayLabel.unselectedBackgroundColor = self.unselectedBackgroundColor
